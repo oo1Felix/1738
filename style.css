@@ -1,0 +1,94 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3333 ;
+    padding: 10px 20px;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100;
+    margin: 20px;
+}
+
+.navbar ul{
+    list-style-type:none;
+    display: flex;
+}
+
+.navbar ul li {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar ul li a{
+    background-color: dimgrey;
+    color: aqua;
+    font-size: 22px;
+
+
+}
+
+/* home section */
+
+/* dog */
+
+.dogsection{
+    background-color: #2E4F4F;
+    padding: 24px
+}
+
+
+   
+/* breed */
+     .breedsection{
+        background-color: #0E8388;
+        padding: 25px;
+     }
+
+     /* food */
+
+     .foodsection{
+        background-color:#E5D1FA ;
+        padding: 30px;
+     }
+
+
+/* care */
+     .caresection{
+        background-color: #FFE3ED;
+        padding: 25px;
+     }
+     .block p{
+        padding: 15PX;
+        position: relative;
+        top: 10%;
+        transform: translate(2%)
+        
+     }
+
+     /* footer n about*/
+      .aboutsec{
+        background-color: #FF971D;
+        
+      }
+
+     .footersec{
+        background-color: #FF971D;
+     }
